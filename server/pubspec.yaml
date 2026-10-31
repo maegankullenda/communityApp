@@ -1,0 +1,15 @@
+name: community_api
+description: HTTP API that stores community bookings in Postgres.
+publish_to: none
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  bcrypt: ^1.2.0
+  postgres: ^3.5.9
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+
+dev_dependencies:
+  test: ^1.26.3
